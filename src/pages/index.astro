@@ -1,16 +1,32 @@
 ---
-
+import Boilerplate from "../layouts/Boilerplate.astro"
+const title ="Home | Mansfield Mobile Tyre"
+const description = "Mansfield Mobile Tyres are your local tyre experts in Mansfield. We supply and fit cheap, mid range and premium tyres right at your doorstep, at no extra cost."
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Boilerplate title={title} description={description}>
+    <section class="bg-light py-5 text-center">
+        <h1 class="mb-3 fw-bold">Mansfield Mobile Tyres</h1>
+        <p class="mb-0 lead">Your local <strong class="fw-bold">mobile tyre service in Mansfield</strong>, Nottingham. We supply and fit tyres at your doorstep!</p>
+        <a href="tel:01623325123" class="btn btn-dark mt-4">Call us on 01623 325 123</a>
+    </section>
+    <main class="container py-5">
+        <h2>Mansfield's Premier Mobile Tyre Service</h2>
+        <p>Welcome to Mansfield Mobile Tyres, where convenience meets quality. We understand that your time is valuable. That's why we offer top-tier tyre services directly at your location, whether at home or work. Our expert team is equipped to handle a wide range of tyre needs, from simple replacements to comprehensive checks.</p>
+
+        <h3>Wide Range of Quality Tyres</h3>
+        <p>At Mansfield Mobile Tyres, we believe in providing choices to suit every vehicle and budget. Our extensive collection includes affordable options, mid-range solutions, and premium brands. Whether you're looking for durability, performance, or a balance of both, we have the perfect tyre for you.</p>
+
+        <h3>No Extra Cost, Maximum Convenience</h3>
+        <p>Our mobile service is designed to save you both time and hassle. We bring the tyre shop to your doorstep at no extra cost. Forget about waiting in line; enjoy the comfort of your own space while we take care of your tyre needs.</p>
+
+        <h3>Expert Fitting and Safety Checks</h3>
+        <p>Your safety is our top priority. Our skilled technicians not only fit your tyres but also conduct thorough checks to ensure everything is in perfect working order. Trust us to provide not just new tyres, but also peace of mind.</p>
+
+        <h3>Ready When You Are</h3>
+        <p>Emergency or scheduled maintenance, we are just a call away. Reach out to us for quick, efficient, and reliable tyre services in Mansfield. We're committed to getting you back on the road safely and swiftly.</p>
+
+        <p>Choose Mansfield Mobile Tyres for quality service that comes to you. Contact us today at <a href="tel:01623325123">01623 325 123</a> for enquiries or to schedule an appointment.</p>
+    </main>
+</Boilerplate>
+
